@@ -1,62 +1,110 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+header {
+  background-image: url('https://rllngr.github.io/La-Toile-Jukebox-Code-Makers/assets/header.svg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  padding-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+nav li a {
+  font-weight: bold;
+  color: #4b4b4b;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4b4b4b;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #e2001a;
+}
+
+footer {
+  background: #e2001a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  padding: 10px;
+}
+
 body {
    background-color: black; /* Couleur de fond par défaut */
-   background-repeat: repeat; /* Répéter l'image */
    color: #ac6a63; /* Couleur du texte */
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police de caractères */
    margin: 20px; 
    display: flex; 
    justify-content: center; /* Centrer le contenu */
-   flex-direction: column;
+       flex-direction: column;
 }
 
-/* Styles des titres */
 h1 {
    color: #ac6a63;
    font-size: 100px;
    display: flex;
-   align-items: baseline; /* Alignement des éléments */
+   align-items: baseline; 
 }
 
 h2 {
-   color: grey; /* Couleur du h2 */
+   color: grey; 
 }
 
 h4 {
-   color: #ac6a63; /* Couleur du h4 */
+   color: #ac6a63; 
 }
 
-/* Styles de la liste ordonnée */
+
 ol {
-   background: black; /* Fond de la liste */
-   color: #ac6a63; /* Couleur du texte */
+   background: black; 
+   color: #ac6a63;
    padding: 50px; 
-   border-radius: 20px; /* Arrondir les coins */
+   border-radius: 20px; 
 }
 
-/* Styles des éléments de la liste */
+
 li {
-   color: rgb(0, 0, 0); /* Couleur des éléments de liste */
+   color: rgb(0, 0, 0); 
 }
 
-/* Styles des liens */
+
 a {
-   color: #ac6a63; /* Couleur des liens */
-   text-decoration: none; /* Pas de soulignement */
+   color: #ac6a63; 
+   text-decoration: none; 
 }
 
 a:hover {
    color: #ac6a63; /
 }
 
-/* Styles des images */
 img {
-   width: 400px; /* Largeur par défaut */
-   height: 400px; /* Hauteur par défaut */
-   margin: auto; /* Centrer l'image */
+   width: 400px; 
+   height: 400px; 
+   margin: auto; 
 }
 
 img:hover {
-   width: 500px; /* Largeur au survol */
-   height: 500px; /* Hauteur au survol */
+   width: 500px; 
+   height: 500px; 
 }
